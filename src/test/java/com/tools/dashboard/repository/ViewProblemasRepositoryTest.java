@@ -1,4 +1,4 @@
-package com.tools.dashboard.repositories;
+package com.tools.dashboard.repository;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,20 +10,21 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.tools.dashboard.domain.ViewProblemas;
 
+import java.util.Optional;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ViewProblemasRepositoryTest {
 	
 	@Autowired
-	private ViewProblemasRepository viewProblemasRepository;
+	private ViewProblemasRepository repository;
 	
 	@Test
-	public void testFetchMatricula() {
-		ViewProblemas findByCodigoProblema = viewProblemasRepository.findByCodigoProblema("9959769");
+	public void testfindByIdProblema() {
+		ViewProblemas problema = repository.findById(9959769).get();
+		System.out.println("#testfindByIdProblema: " + problema.toString());
 		
-		System.out.println("#testFetchMatricula -- Total de registros encontrados: " + findByCodigoProblema.toString());
-		
-		if("9959769".equals(findByCodigoProblema.getCodigoProblema())){
+		if("9959769".equals(problema.getCodigoProblema())){
 			assertEquals(true, true);
 		}else{
 			assertEquals(true, false);

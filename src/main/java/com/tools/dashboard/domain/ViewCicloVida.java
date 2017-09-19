@@ -1,5 +1,7 @@
 package com.tools.dashboard.domain;
 
+import com.tools.dashboard.domain.key.ViewCicloVidaId;
+
 import javax.persistence.*;
 
 @Entity @IdClass(ViewCicloVidaId.class)
@@ -120,7 +122,7 @@ public class ViewCicloVida {
 
   @Override
   public String toString() {
-    return "ViewCicloVida{" +
+    return "ViewCicloVidaRepository{" +
             "numeroDoChamado='" + numeroDoChamado + '\'' +
             ", inicio='" + inicio + '\'' +
             ", fim='" + fim + '\'' +

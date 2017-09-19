@@ -493,4 +493,54 @@ public class ViewTickets {
   public void setNumeroDoItemCausador(String numeroDoItemCausador) {
     this.numeroDoItemCausador = numeroDoItemCausador;
   }
+
+  @Override
+  public String toString() {
+    return "ViewTickets{" +
+            "incidente='" + incidente + '\'' +
+            ", usuario='" + usuario + '\'' +
+            ", entidadeAfetada='" + entidadeAfetada + '\'' +
+            ", grupoResponsavel='" + grupoResponsavel + '\'' +
+            ", responsavel='" + responsavel + '\'' +
+            ", grupoSolucionador='" + grupoSolucionador + '\'' +
+            ", analistaSolucionador='" + analistaSolucionador + '\'' +
+            ", reportadoPor='" + reportadoPor + '\'' +
+            ", resumo='" + resumo + '\'' +
+            ", descricao='" + descricao + '\'' +
+            ", dataAbertura='" + dataAbertura + '\'' +
+            ", dataSolucao='" + dataSolucao + '\'' +
+            ", dataFechamento='" + dataFechamento + '\'' +
+            ", dataSla='" + dataSla + '\'' +
+            ", dataHoraDoRetornoDaRequisicao='" + dataHoraDoRetornoDaRequisicao + '\'' +
+            ", status='" + status + '\'' +
+            ", prioridade='" + prioridade + '\'' +
+            ", urgencia='" + urgencia + '\'' +
+            ", impacto='" + impacto + '\'' +
+            ", categoria='" + categoria + '\'' +
+            ", statusDoProjeto=" + statusDoProjeto +
+            ", numeroDoProjeto='" + numeroDoProjeto + '\'' +
+            ", atividadeAvulsa='" + atividadeAvulsa + '\'' +
+            ", aberturaDaAtividadeAvulsa=" + aberturaDaAtividadeAvulsa +
+            ", dataConclusaoDoPlanejamento=" + dataConclusaoDoPlanejamento +
+            ", incidenteOrigem='" + incidenteOrigem + '\'' +
+            ", problema='" + problema + '\'' +
+            ", incidentePai='" + incidentePai + '\'' +
+            ", rdmSolucionadora='" + rdmSolucionadora + '\'' +
+            ", rdmCausadora='" + rdmCausadora + '\'' +
+            ", nMeroAtividadeCausadoraSgd='" + nMeroAtividadeCausadoraSgd + '\'' +
+            ", ativo='" + ativo + '\'' +
+            ", solucao='" + solucao + '\'' +
+            ", solucaoDeContorno='" + solucaoDeContorno + '\'' +
+            ", descricaoDaUltimaSolucao='" + descricaoDaUltimaSolucao + '\'' +
+            ", qtdIncidentesFilhos=" + qtdIncidentesFilhos +
+            ", tipo='" + tipo + '\'' +
+            ", totalDeHorasUteis='" + totalDeHorasUteis + '\'' +
+            ", ua='" + ua + '\'' +
+            ", cooperativa='" + cooperativa + '\'' +
+            ", urdcSureg='" + urdcSureg + '\'' +
+            ", central='" + central + '\'' +
+            ", garantia=" + garantia +
+            ", numeroDoItemCausador='" + numeroDoItemCausador + '\'' +
+            '}';
+  }
 }

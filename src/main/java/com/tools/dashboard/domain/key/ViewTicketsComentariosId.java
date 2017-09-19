@@ -1,4 +1,4 @@
-package com.tools.dashboard.domain;
+package com.tools.dashboard.domain.key;
 
 import java.io.Serializable;
 

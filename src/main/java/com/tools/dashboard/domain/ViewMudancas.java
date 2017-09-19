@@ -703,5 +703,72 @@ public class ViewMudancas {
     this.requisicao = requisicao;
   }
 
-
+  @Override
+  public String toString() {
+    return "ViewMudancas{" +
+            "rdm='" + rdm + '\'' +
+            ", equipeSolicitante='" + equipeSolicitante + '\'' +
+            ", solicitante='" + solicitante + '\'' +
+            ", resumoRdm='" + resumoRdm + '\'' +
+            ", descricao='" + descricao + '\'' +
+            ", risco='" + risco + '\'' +
+            ", prioridade='" + prioridade + '\'' +
+            ", tipoDeMudanca='" + tipoDeMudanca + '\'' +
+            ", dataDeAberturaRdm='" + dataDeAberturaRdm + '\'' +
+            ", dataDeExecuORdm='" + dataDeExecuORdm + '\'' +
+            ", dataDeFechamentoRdm='" + dataDeFechamentoRdm + '\'' +
+            ", status='" + status + '\'' +
+            ", categoria='" + categoria + '\'' +
+            ", grupoSolicitanteRdm='" + grupoSolicitanteRdm + '\'' +
+            ", tipoDeLiberacao='" + tipoDeLiberacao + '\'' +
+            ", dataDoComite='" + dataDoComite + '\'' +
+            ", inicioDaIndisponibilidade='" + inicioDaIndisponibilidade + '\'' +
+            ", fimDaIndisponibilidade='" + fimDaIndisponibilidade + '\'' +
+            ", janelaDeManutenO='" + janelaDeManutenO + '\'' +
+            ", detalhesDaJanelaDeManutencao='" + detalhesDaJanelaDeManutencao + '\'' +
+            ", origemDaMudanca='" + origemDaMudanca + '\'' +
+            ", projetoRelacionado='" + projetoRelacionado + '\'' +
+            ", haverHomologacao='" + haverHomologacao + '\'' +
+            ", validacaoPosMudancaEmProducao='" + validacaoPosMudancaEmProducao + '\'' +
+            ", planoDeRetrocessoVisaoGeralETempoDeExecucao='" + planoDeRetrocessoVisaoGeralETempoDeExecucao + '\'' +
+            ", mudancaRequerAlteracaoEmDocumentacaoExistente='" + mudancaRequerAlteracaoEmDocumentacaoExistente + '\'' +
+            ", descricaoDosDocumentosQueDevemSerAtualizados='" + descricaoDosDocumentosQueDevemSerAtualizados + '\'' +
+            ", observacoesDaGestaoDeMudancas='" + observacoesDaGestaoDeMudancas + '\'' +
+            ", tipoDeScriptOuParalelo='" + tipoDeScriptOuParalelo + '\'' +
+            ", acaoParaEvitarRecorrencia='" + acaoParaEvitarRecorrencia + '\'' +
+            ", descricaoDaAcaoParaEvitarRecorrencia='" + descricaoDaAcaoParaEvitarRecorrencia + '\'' +
+            ", previsaoDeSolucao='" + previsaoDeSolucao + '\'' +
+            ", tipoDeCorrecao='" + tipoDeCorrecao + '\'' +
+            ", numeroPl='" + numeroPl + '\'' +
+            ", solicitantePl='" + solicitantePl + '\'' +
+            ", grupoSolicitantePl='" + grupoSolicitantePl + '\'' +
+            ", statusPl='" + statusPl + '\'' +
+            ", tipoDeLiberacaoPl='" + tipoDeLiberacaoPl + '\'' +
+            ", dataDeExecucaoPl='" + dataDeExecucaoPl + '\'' +
+            ", estimativaDeTempoTotalDeExecucao='" + estimativaDeTempoTotalDeExecucao + '\'' +
+            ", limiteParaConclusao='" + limiteParaConclusao + '\'' +
+            ", dataDeAberturaPl='" + dataDeAberturaPl + '\'' +
+            ", dataDeFechamentoPl='" + dataDeFechamentoPl + '\'' +
+            ", devolucoesQualidade=" + devolucoesQualidade +
+            ", quantidadeDeRejeicao=" + quantidadeDeRejeicao +
+            ", resumoPl='" + resumoPl + '\'' +
+            ", repositorioArtefatosDoSolicitante='" + repositorioArtefatosDoSolicitante + '\'' +
+            ", entidadesDestino='" + entidadesDestino + '\'' +
+            ", preRequisitos='" + preRequisitos + '\'' +
+            ", repositorioArtefatosParaInstalacaoPreenchidoPelaEquipeGlEUsadoPelosExecutores='" + repositorioArtefatosParaInstalacaoPreenchidoPelaEquipeGlEUsadoPelosExecutores + '\'' +
+            ", observacoesDaGestaoDeMudancasNoPl='" + observacoesDaGestaoDeMudancasNoPl + '\'' +
+            ", pessoasEnvolvidasNaExecucaoNomeEquipeFone='" + pessoasEnvolvidasNaExecucaoNomeEquipeFone + '\'' +
+            ", pessoasEnvolvidasNaValidacaoPosMudancaNomeEquipeFone='" + pessoasEnvolvidasNaValidacaoPosMudancaNomeEquipeFone + '\'' +
+            ", pessoasEnvolvidasNoEscalonamentoParaProblemasERetrocessoNomeEquipeFone='" + pessoasEnvolvidasNoEscalonamentoParaProblemasERetrocessoNomeEquipeFone + '\'' +
+            ", ambientes='" + ambientes + '\'' +
+            ", detalhamentoDasAtividadesDoPlanoDeRetrocesso='" + detalhamentoDasAtividadesDoPlanoDeRetrocesso + '\'' +
+            ", rdmPai='" + rdmPai + '\'' +
+            ", anexoDaRdm='" + anexoDaRdm + '\'' +
+            ", anexoDoPl='" + anexoDoPl + '\'' +
+            ", planoDeRetrocesso='" + planoDeRetrocesso + '\'' +
+            ", validacaoPosMudanca='" + validacaoPosMudanca + '\'' +
+            ", icDoPl='" + icDoPl + '\'' +
+            ", requisicao='" + requisicao + '\'' +
+            '}';
+  }
 }

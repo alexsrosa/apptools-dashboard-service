@@ -1,5 +1,7 @@
 package com.tools.dashboard.domain;
 
+import com.tools.dashboard.domain.key.ViewTicketsComentariosId;
+
 import javax.persistence.*;
 
 @Entity @IdClass(ViewTicketsComentariosId.class)

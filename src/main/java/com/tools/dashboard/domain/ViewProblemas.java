@@ -11,7 +11,7 @@ public class ViewProblemas {
 	
 	@Id
 	@Column(name="[Código]")
-	private String codigoProblema;
+	private Integer codigoProblema;
 	
 	@Column(name="[Código Problema Pai]")
 	private String codigoProblemaPai;
@@ -112,14 +112,14 @@ public class ViewProblemas {
 	/**
 	 * @return the codigoProblema
 	 */
-	public String getCodigoProblema() {
+	public Integer getCodigoProblema() {
 		return codigoProblema;
 	}
 
 	/**
 	 * @param codigoProblema the codigoProblema to set
 	 */
-	public void setCodigoProblema(String codigoProblema) {
+	public void setCodigoProblema(Integer codigoProblema) {
 		this.codigoProblema = codigoProblema;
 	}
 
